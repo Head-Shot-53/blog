@@ -127,7 +127,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 # сервер електроної пошти
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ned.warov@gmail.com'
-EMAIL_HOST_PASSWORD = 'jeuq ttog hvse wqjs '
-EMAIL_PORT = 587
+EMAIL_HOST_USER = 'your@gmail.com'
+EMAIL_HOST_PASSWORD = 'your password'
+EMAIL_PORT = 'your port'
 EMAIL_USE_TLS = True
