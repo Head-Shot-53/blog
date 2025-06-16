@@ -21,7 +21,7 @@ class Post(models.Model):
 
     publish = models.DateTimeField(default=timezone.now) # дата публікації
     created = models.DateTimeField(auto_now_add=True)# дата створення
-    update = models.DateTimeField(auto_now=True) # дата змінення
+    updated = models.DateTimeField(auto_now=True) # дата змінення
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
 
     objects = models.Manager() # мнеджер який береться за замовчуванням
